@@ -32,7 +32,7 @@ pipeline {
                     echo "Test stage"
                     ls -al
                     npm test
-                    test -f learn-jenkins-app/build/index.html
+                    test -f build/index.html
                 '''
             }
         }
