@@ -100,7 +100,7 @@ pipeline {
             }
 
             environment {
-                CI_ENVIRONMENT_URL = 'https://comfy-naiad-fc8175.netlify.app/'
+                CI_ENVIRONMENT_URL = 'https://comfy-naiad-fc8175.netlify.app'
             }
             
             steps {
